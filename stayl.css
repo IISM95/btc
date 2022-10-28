@@ -3,8 +3,9 @@
 }
 
 body {
-	width: 1349px;
+	max-width: 1349px;
 	margin: 0 auto;
+	background-size: cover;
 }
 
 header {
@@ -52,7 +53,7 @@ ul {
 	border: 1px solid #F7941E;
 	border-radius: 5px;
 	color: #F7941E;
-	width: 150px;
+	max-width: 150px;
 	height: 43px;
 	margin-right: 34px
 }
@@ -73,21 +74,23 @@ ul {
 .item-1 {
 	background-color: #F1F1F2;
 }
-		
-.ferst-item{
-	width: 50%;
-}
-.second-item{
+
+.ferst-item {
 	width: 50%;
 }
 
-.aaa{
+.second-item {
+	width: 50%;
+}
+
+.aaa {
 	width: 100%;
 	height: 100%;
 }
+
 .text1 {
 	font-size: 40px;
-	width: 433px;
+	max-width: 433px;
 	line-height: 50px;
 	font-weight: 800;
 	padding: 154px 0 0 162px;
@@ -95,7 +98,7 @@ ul {
 
 .text2 {
 	margin-top: 36px;
-	width: 422px;
+	max-width: 422px;
 	padding-left: 162px;
 	line-height: 140.62%;
 }
@@ -120,7 +123,7 @@ ul {
 	border: 1px solid #F7941E;
 	border-radius: 5px;
 	color: #F7941E;
-	width: 200px;
+	max-width: 200px;
 	height: 60px;
 	margin-bottom: 135px;
 }
@@ -136,7 +139,7 @@ ul {
 }
 
 .text4 {
-	width: 441px;
+	max-width: 441px;
 	padding-left: 102px;
 	font-size: 20px;
 	margin-top: 20px;
@@ -158,7 +161,7 @@ ul {
 
 	border: 1px solid #F7941E;
 	border-radius: 5px;
-	width: 200px;
+	max-width: 200px;
 	height: 60px;
 }
 
@@ -181,19 +184,17 @@ ul {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 137px;
+	margin-top: 64px;
 }
 
 .block1 img {
-	width: 270px;
+
 	height: 270px;
 }
 
 .item2 {
 	padding-left: 30px;
-}
-
-.container {
-	margin-top: 64px;
+	max-width: 300px;
 }
 
 .tex1 {
@@ -218,6 +219,7 @@ ul {
 
 .item1 {
 	box-shadow: -12px 10px 20px 0px #B9B9B9;
+	max-width: 290px;
 }
 
 .fourth {
@@ -247,28 +249,33 @@ ul {
 }
 
 .gift4 {
-	width: 200px;
+	max-width: 200px;
 	height: 50px;
 	margin: 96px 0 0 0;
 	border-radius: 5px;
 }
-.g2{
+
+.g2 {
 	background-color: #F7941E;
 	margin-left: 16px;
 	font-size: 18px;
 }
-.g1{
+
+.g1 {
 	background-color: black;
 	font-size: 18px;
 
 }
-.g1 a{
+
+.g1 a {
 	color: white;
 }
-.g2 a{
+
+.g2 a {
 	color: black;
 }
-.gift4 a{
+
+.gift4 a {
 	text-decoration: none;
 }
 
@@ -278,148 +285,244 @@ ul {
 	line-height: 38px;
 	text-align: center;
 }
-.text8{
+
+.text8 {
 	margin-top: 23px;
 	font-size: 18px;
 	text-align: center;
 }
-.best{
+
+.best {
 	padding-top: 71px;
 	display: flex;
-	width: 1170px;
+	max-width: 1170px;
 	margin: auto;
 }
 
-.fifthText{
+.fifthText {
 	background-color: #231F20;
 	width: 100%;
 	color: white;
 }
 
-.fifthText-item{
+.fifthText-item {
 	margin-left: 78px;
 }
 
-.itemF-1{
+.itemF-1 {
 	padding-top: 63px;
 	font-size: 14px;
 }
-.itemF-2{
+
+.itemF-2 {
 	margin-top: 27px;
 	font-size: 48px;
-   line-height: 58px;
+	line-height: 58px;
 	max-width: 492px;
 }
-.itemF-3{
+
+.itemF-3 {
 	margin-top: 60px;
 	font-size: 18px;
 	margin-bottom: 49px;
 }
-.fifthImage img{
+
+.fifthImage img {
 	height: 100%;
 	width: 100%;
 }
-.description{
+
+.description {
 	margin-top: 20px;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 80px;
 }
-.d-item1{
-	width: 474px;
+
+.d-item1 {
 	font-size: 24px;
 	font-weight: 800;
-	line-height: 140.62%;
-	padding: 48px 0 0 48px;
+
+	padding: 48px 48px 20px 48px;
 }
-.d-item2{
+
+.d-item2 {
 	font-family: 'Libre Franklin';
 	font-style: normal;
 	text-align: justify;
-	width: 474px;
 	font-size: 17px;
 	padding-left: 48px;
 	margin-top: 16px;
-	
-}
-.d-item3{
-	font-family: 'Libre Franklin';
-	font-style: normal;
-	width: 474px;
-	font-size: 14px;
-	padding-left: 48px;
-	margin-top: 16px;
-}
-.description-item{
-	width: 570px;
-	box-shadow: 10px 10px 5px 0px #F5F5F5;
-}
-.description-item1{
-	width: 570px;
-	margin-left: 30px;
-}
-.parent{
-	display: flex;
-	justify-content: center;
-	
-}
-.menu-1{
-	margin-top: 106px;
-	
+
 }
 
-.menu-1 ul{
+.d-item3 {
+	font-family: 'Libre Franklin';
+	font-style: normal;
+	font-size: 14px;
+	padding: 0 48px 0 48px;
+	margin-top: 16px;
+}
+
+.description-item {
+	max-width: 570px;
+	box-shadow: 10px 10px 5px 0px #F5F5F5;
+}
+
+.description-item1 {
+	max-width: 570px;
+	margin-left: 30px;
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+
+}
+
+.menu-1 {
+	margin-top: 106px;
+
+}
+
+.menu-1 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0
 }
 
-.menu-1 ul li a{
+.menu-1 ul li a {
 	text-decoration: none;
 	color: black;
 	font-weight: 800;
 }
-.menu-1 ul li{
+
+.menu-1 ul li {
 	padding: 0 50px 0 50px;
 }
-.fmenu-1{
+
+.fmenu-1 {
 	margin-right: 70px;
 }
-.fmenu-2{
+
+.fmenu-2 {
 	margin-left: 70px;
 }
-.logo-1{
+
+.logo-1 {
 	margin-top: 106px;
 	font-family: 'Homemade Apple';
-   font-style: normal;
+	font-style: normal;
 	color: #F7941E;
 }
 
-.boord{
-	width: 1000px;
-	border-top: 1px solid #000000 ;
+.boord {
+	max-width: 1000px;
+	border-top: 1px solid #000000;
 	margin: auto;
 	margin-top: 53px;
 }
-.social{
+
+.social {
 	display: flex;
 	margin-top: 56px;
 	justify-content: center;
 }
-.icons-soc a{
+
+.icons-soc a {
 	color: white;
 }
-.icons-soc{
+
+.icons-soc {
 	background-color: #000000;
 	width: 39px;
 	height: 39px;
 	display: flex;
 	justify-content: center;
-	align-items:center;
+	align-items: center;
 	border-radius: 60px;
 	margin-left: 10px;
 }
-.officer{
+
+.officer {
 	text-align: center;
 	margin: 73px 0 35px 0;
+}
+
+@media only screen and (max-width: 1170px) {
+	.block1 {
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+
+	.container {
+		flex-wrap: wrap;
+	}
+
+	.text3 {
+		padding: 0;
+	}
+
+	.text4 {
+		padding: 0;
+	}
+
+	.gift3 {
+		padding: 0;
+	}
+
+	.item-22 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 922px) {
+	.text1 {
+		padding: 0;
+		text-align: center;
+	}
+
+	.text2 {
+		padding: 0;
+		text-align: center;
+	}
+
+	.gift2 {
+		padding: 0;
+		text-align: center;
+	}
+
+	.item22 {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	header{
+		display: none;
+	}
+	.bloc2 {
+		display: none;
+	}
+	.parent{
+		display: none;
+	}
+	.description{
+		display: none;
+	}
+	.boord{
+		display: none;
+	}
+	.gift2, .gift3{
+		display: none;
+	}
+	.block1 {
+		box-shadow: 0px;
+	}
+	.container{
+		padding: 0;
+	}
 }
